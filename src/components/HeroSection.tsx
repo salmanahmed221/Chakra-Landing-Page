@@ -14,7 +14,7 @@ function HeroSection() {
                 <Button mt="20px" title="click to visit" backgroundColor="green" color="white" rightIcon={<ChevronRightIcon />}>Create your account now</Button>
             </Box>
             {/* Right side */}
-            <Box flexBasis="50%" mt={{ base: "50px", md: "0px" }} mx={{ base: "10px", md: "0px" }}>
+            <Box flexBasis="50%" mt={{ base: "50px", md: "0px" }} mx={{ base: "10px", md: "0px" }} pb="30px">
                 <Image src="/plant.jpg" alt="plant" width={500} height={350} borderRadius="30px" />
             </Box>
         </Flex>
