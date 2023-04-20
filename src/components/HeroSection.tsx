@@ -1,9 +1,8 @@
 "use client"
 import {
-    Box, Heading, Flex, Button, Text
+    Box, Heading, Flex, Button, Text, Image
 } from "@chakra-ui/react"
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Image from "next/image";
 
 function HeroSection() {
     return <Box >
@@ -16,7 +15,7 @@ function HeroSection() {
             </Box>
             {/* Right side */}
             <Box flexBasis="50%" mt={{ base: "50px", md: "0px" }} mx={{ base: "10px", md: "0px" }}>
-                <Image src="/plant.jpg" alt="plant" width={450} height={450} />
+                <Image src="/plant.jpg" alt="plant" width={500} height={350} borderRadius="30px" />
             </Box>
         </Flex>
     </Box >;
